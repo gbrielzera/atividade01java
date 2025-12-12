@@ -1,9 +1,9 @@
-package main.com.gabriel.piano;
+package com.gabriel.piano;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class SuaTelaController {
+public class PianoController {
 
     @FXML
     private Button meuBotao;
@@ -13,6 +13,12 @@ public class SuaTelaController {
 
     @FXML
     public void initialize() {
-        // tuas tretas
+    }
+
+    @FXML
+    private void onMeuBotaoClicked() {
+        if (minhaLabel != null) {
+            minhaLabel.setText("Clicked!");
+        }
     }
 }
