@@ -1,4 +1,4 @@
-package main.java.com.gabriel.piano;
+package main.com.gabriel.piano;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

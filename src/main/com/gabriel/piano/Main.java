@@ -1,4 +1,4 @@
-package main.java.com.gabriel.piano;
+package main.com.gabriel.piano;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
